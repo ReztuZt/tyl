@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.js",  // Nama file utama aplikasi Node.js (bisa disesuaikan)
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",  // Route untuk semua request
+      "dest": "/index.js"  // Route ke file entry point aplikasi Node.js
+    }
+  ]
+}
