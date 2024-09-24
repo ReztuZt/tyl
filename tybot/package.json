@@ -1,12 +1,10 @@
 {
   "name": "tel_bot_real",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Telegram bot built with grammy.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-        "vercel-build": "npm install && npm run start"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
